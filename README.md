@@ -1,6 +1,6 @@
-# Solana Perpetual DEX Practice
+# perps-lab
 
-An educational project to build a Perpetual Decentralized Exchange (Perp DEX) on Solana.
+An educational project to build a new Perpetual Decentralized Exchange (Perp DEX) on Solana, designed by incorporating Anatoly Yakovenko's **Percolator** risk engine math and other bleeding-edge innovations.
 
 ---
 
@@ -45,4 +45,15 @@ Here are the 5 core pieces of a Perp DEX architecture:
 ## System Architecture
 
 ![Architecture](arch-basic.png)
-# perps-lab
+
+---
+
+## Repository Structure
+
+- `perp-dex/`: Anchor project containing the Solana program codebase.
+- `research/`: Detailed research on perpetual futures design, including Percolator risk math and literature reviews.
+  - [perp-dex-design-v1-replace-percolator.md](file:///Users/amalnathsathyan/Documents/trycatchblock/learning/perps-lab/research/perp-dex-design-v1-replace-percolator.md): Design proposal substituting Percolator risk model.
+  - [perp-dex-design-v2-wrapper.md](file:///Users/amalnathsathyan/Documents/trycatchblock/learning/perps-lab/research/perp-dex-design-v2-wrapper.md): Design proposal wrapping Percolator.
+  - [perp-futures-literature-review.md](file:///Users/amalnathsathyan/Documents/trycatchblock/learning/perps-lab/research/perp-futures-literature-review.md): In-depth literature review on perpetual futures.
+- [perpetual_futures_research.md](file:///Users/amalnathsathyan/Documents/trycatchblock/learning/perps-lab/perpetual_futures_research.md): Core research document summarizing current paradigms and Percolator's innovations (Haircut Ratio $H$, Lazy indices).
+- [perps-chat-export.md](file:///Users/amalnathsathyan/Documents/trycatchblock/learning/perps-lab/perps-chat-export.md): Export of the initial deep research chats.
